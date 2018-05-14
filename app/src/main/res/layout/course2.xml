@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:background="#33ccff"
@@ -25,42 +26,70 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="385dp"
-        android:layout_height="233dp"
-        app:srcCompat="@drawable/pic1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="58dp" />
+        android:layout_width="383dp"
+        android:layout_height="219dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:contentDescription="background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/pic1" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pic2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="291dp" />
+        android:layout_marginBottom="170dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.636"
+        app:srcCompat="@drawable/pic2" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="122dp"
-        android:layout_height="108dp"
-        app:srcCompat="@drawable/pic3"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="291dp" />
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/pic3" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="127dp"
-        android:layout_height="106dp"
-        app:srcCompat="@drawable/pic4"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="291dp" />
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/pic4" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="96dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </android.support.constraint.ConstraintLayout>
