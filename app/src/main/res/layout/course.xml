@@ -6,41 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".course">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:layout_marginBottom="520dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="152dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="152dp"
-        android:text="@string/courses"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
-
     <ScrollView
-        android:layout_width="376dp"
-        android:layout_height="469dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        tools:layout_editor_absoluteY="58dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:background="#33ccff">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20px"
+            android:text="我的課程"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
