@@ -15,7 +15,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="8dp"
-        android:text="我的課程"
+        android:text="My Course"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
