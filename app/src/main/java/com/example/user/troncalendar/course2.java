@@ -8,6 +8,6 @@ public class course2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.course2);
-        //course2
+        //course
     }
 }
